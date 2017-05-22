@@ -1,0 +1,10 @@
+{
+  "name": "<%- name %>",
+  "options": {
+    "type": "blank",
+    "template": "<%- template %>",
+    "npm": "<%- npm %>",
+    "entry": "index.js",
+    "open": true
+  }
+}
