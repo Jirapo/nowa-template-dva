@@ -12,9 +12,7 @@ import dva from 'dva';
 import { browserHistory } from 'dva/router';
 
 // 1. Initialize
-const app = dva({
-  history: browserHistory,
-});
+const app = dva();
 
 // 2. Model
 // app.model(require('./models/users'));
